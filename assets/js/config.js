@@ -74,25 +74,23 @@ window.KULKAVACH = {
   ],
 
   /* ---------------- Branches / coverage ----------------
-     x,y  = position on the SVG coverage map (viewBox 0 0 600 380), derived from
-            real coordinates:  x = (longitude - 73.5) * 56 + 20
-                               y = (27.4 - latitude) * 50 + 30
+     x,y  = position on the SVG coverage map (viewBox 0 0 600 420)
      labelBelow = draw the city name under the pin instead of above (use it when
             two cities sit close enough that the labels would collide). */
   branches: [
-    { id: 'gwalior', name: 'Gwalior', role: 'Head office & control room', x: 282, y: 89,
+    { id: 'gwalior', name: 'Gwalior', role: 'Head office & control room', x: 285, y: 71,
       phone: '+91 94250 00000', staff: '260+ deployed', since: 2013, hq: true,
       areas: 'City Centre, Morar, Thatipur, Maharajpura, DD Nagar, industrial belt' },     // TODO
-    { id: 'bhopal', name: 'Bhopal', role: 'Regional branch', x: 239, y: 237,
+    { id: 'bhopal', name: 'Bhopal', role: 'Regional branch', x: 237, y: 254,
       phone: '+91 75150 00000', staff: '120+ deployed', since: 2017, hq: false,
       areas: 'MP Nagar, Arera Colony, Govindpura, Mandideep' },                            // TODO
-    { id: 'indore', name: 'Indore', role: 'Regional branch', x: 152, y: 264, labelBelow: true,
+    { id: 'indore', name: 'Indore', role: 'Regional branch', x: 141, y: 288, labelBelow: true,
       phone: '+91 75150 00000', staff: '90+ deployed', since: 2019, hq: false,
       areas: 'Vijay Nagar, Palasia, Pithampur, SEZ corridor' },                            // TODO
-    { id: 'jabalpur', name: 'Jabalpur', role: 'Operations desk', x: 380, y: 242,
+    { id: 'jabalpur', name: 'Jabalpur', role: 'Operations desk', x: 397, y: 259,
       phone: '+91 75150 00000', staff: '40+ deployed', since: 2021, hq: false,
       areas: 'Wright Town, Adhartal, Richhai industrial area' },                           // TODO
-    { id: 'ujjain', name: 'Ujjain', role: 'Operations desk', x: 148, y: 241,
+    { id: 'ujjain', name: 'Ujjain', role: 'Operations desk', x: 136, y: 259,
       phone: '+91 75150 00000', staff: '30+ deployed', since: 2022, hq: false,
       areas: 'Freeganj, Nanakheda, Mahakal corridor' }                                     // TODO
   ],
