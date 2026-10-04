@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Secrets — never commit real credentials
+.env
+.env.*
+!.env.example
+server/.env
+
+# Captured leads (contains personal data)
+server/leads/
+*.ndjson
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Build & deploy artefacts
+.netlify/
+.vercel/
+dist/
