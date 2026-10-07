@@ -16,7 +16,7 @@ window.KULKAVACH = {
      below are filled in — and delete the <meta name="robots" content="noindex">
      line from the <head> of all 12 pages at the same time (grep for DEMO-ONLY). */
   demo: {
-    enabled: true,
+    enabled: false,
     note: 'Design preview — all names, figures, licence numbers and testimonials shown are placeholder samples, pending your details.'
   },
 
@@ -33,9 +33,9 @@ window.KULKAVACH = {
   /* ---------------- Contact ----------------
      phone/whatsapp: digits only, with country code, no "+" for whatsapp links. */
   contact: {
-    phonePrimary:   '+91 94250 00000',                      // TODO
-    phoneSecondary: '+91 75150 00000',                      // TODO
-    whatsapp:       '919425000000',                         // TODO digits only, e.g. 919425123456
+    phonePrimary:   '+91 7771971515',                      // TODO
+    phoneSecondary: '+91 7771971515',                      // TODO
+    whatsapp:       '917771971515',                         // TODO digits only, e.g. 919425123456
     email:          'ops@kulkavach.in',                     // TODO
     emailCareers:   'careers@kulkavach.in',                 // TODO
     address: {
@@ -79,19 +79,19 @@ window.KULKAVACH = {
             two cities sit close enough that the labels would collide). */
   branches: [
     { id: 'gwalior', name: 'Gwalior', role: 'Head office & control room', x: 285, y: 71,
-      phone: '+91 94250 00000', staff: '260+ deployed', since: 2013, hq: true,
+      phone: '+91 7771971515', staff: '260+ deployed', since: 2013, hq: true,
       areas: 'City Centre, Morar, Thatipur, Maharajpura, DD Nagar, industrial belt' },     // TODO
     { id: 'bhopal', name: 'Bhopal', role: 'Regional branch', x: 237, y: 254,
-      phone: '+91 75150 00000', staff: '120+ deployed', since: 2017, hq: false,
+      phone: '+91 7771971515', staff: '120+ deployed', since: 2017, hq: false,
       areas: 'MP Nagar, Arera Colony, Govindpura, Mandideep' },                            // TODO
     { id: 'indore', name: 'Indore', role: 'Regional branch', x: 141, y: 288, labelBelow: true,
-      phone: '+91 75150 00000', staff: '90+ deployed', since: 2019, hq: false,
+      phone: '+91 7771971515', staff: '90+ deployed', since: 2019, hq: false,
       areas: 'Vijay Nagar, Palasia, Pithampur, SEZ corridor' },                            // TODO
     { id: 'jabalpur', name: 'Jabalpur', role: 'Operations desk', x: 397, y: 259,
-      phone: '+91 75150 00000', staff: '40+ deployed', since: 2021, hq: false,
+      phone: '+91 7771971515', staff: '40+ deployed', since: 2021, hq: false,
       areas: 'Wright Town, Adhartal, Richhai industrial area' },                           // TODO
     { id: 'ujjain', name: 'Ujjain', role: 'Operations desk', x: 136, y: 259,
-      phone: '+91 75150 00000', staff: '30+ deployed', since: 2022, hq: false,
+      phone: '+91 7771971515', staff: '30+ deployed', since: 2022, hq: false,
       areas: 'Freeganj, Nanakheda, Mahakal corridor' }                                     // TODO
   ],
 
