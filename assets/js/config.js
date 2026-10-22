@@ -23,7 +23,7 @@ window.KULKAVACH = {
   /* ---------------- Identity ---------------- */
   brand: {
     name: 'Kulkavach',
-    legalName: 'Kulkavach Security & Manpower Services',   // TODO: exact registered name
+    legalName: 'Kulkavach Global Security Services',   // TODO: exact registered name
     tagline: 'Security & Manpower',
     foundedYear: 2013,                                      // TODO
     region: 'Madhya Pradesh',
@@ -34,10 +34,10 @@ window.KULKAVACH = {
      phone/whatsapp: digits only, with country code, no "+" for whatsapp links. */
   contact: {
     phonePrimary:   '+91 7771971515',                      // TODO
-    phoneSecondary: '+91 7771971515',                      // TODO
+    phoneSecondary: '+91 7771971616',                      // TODO
     whatsapp:       '917771971515',                         // TODO digits only, e.g. 919425123456
-    email:          'ops@kulkavach.in',                     // TODO
-    emailCareers:   'careers@kulkavach.in',                 // TODO
+    email:          'info@kulkavach.in',                     // TODO
+    emailCareers:   'info@kulkavach.in',                 // TODO
     address: {
       line1: 'Plot 14, City Centre',                        // TODO
       line2: 'Gwalior, Madhya Pradesh 474011',              // TODO
