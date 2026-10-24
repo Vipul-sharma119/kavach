@@ -22,9 +22,9 @@ window.KULKAVACH = {
 
   /* ---------------- Identity ---------------- */
   brand: {
-    name: 'KULKAVACH GLOBAL',
+    name: 'KULKAVACH',
     legalName: 'KULKAVACH GLOBAL SECURITY SERVICES',   // TODO: exact registered name
-    tagline: 'SECURITY SERVICES',
+    tagline: 'GLOBAL SECURITY SERVICES',
     foundedYear: 2013,                                      // TODO
     region: 'Madhya Pradesh',
     hq: 'Gwalior'
