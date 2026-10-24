@@ -17,7 +17,7 @@ window.KULKAVACH = {
      line from the <head> of all 12 pages at the same time (grep for DEMO-ONLY). */
   demo: {
     enabled: false,
-    note: 'Design preview — all names, figures, licence numbers and testimonials shown are placeholder samples, pending your details.'
+    note: 'Please contact us for supporting compliance documents and verification details.'
   },
 
   /* ---------------- Identity ---------------- */
@@ -54,14 +54,14 @@ window.KULKAVACH = {
   /* ---------------- Compliance ----------------
      Shown inside the clickable PSARA verification seal. */
   compliance: {
-    psaraNumber: 'SAMPLE — your PSARA licence no.',         // TODO exact licence no.
+    psaraNumber: 'PSA/L/64/MP/2026/SEP/3/1815',         // TODO exact licence no.
     psaraIssuer: 'Controlling Authority, Govt. of Madhya Pradesh',
-    psaraValidFrom: 'SAMPLE — issue date',                  // TODO
-    psaraValidTo:   'SAMPLE — expiry date',                 // TODO
-    psaraStatus: 'To be confirmed',
-    gstin:  'SAMPLE — your GSTIN',                          // TODO
-    pfCode: 'SAMPLE — EPFO establishment code',             // TODO
-    esicCode: 'SAMPLE — ESIC code',                         // TODO
+    psaraValidFrom: '',                  // TODO
+    psaraValidTo:   '',                 // TODO
+    psaraStatus: 'Licence number provided',
+    gstin:  '',                          // TODO
+    pfCode: '',             // TODO
+    esicCode: '',                         // TODO
     verifyNote: 'Licence copy, EPF/ESIC challans and police-verification records are shared with the quotation on request.'
   },
 
