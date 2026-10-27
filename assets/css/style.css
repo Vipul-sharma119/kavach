@@ -736,6 +736,9 @@ body.has-stickybar .fab { bottom: 92px; }
 .footer h4 { color: #fff; font-size: .82rem; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 16px; font-weight: 700; }
 .footer ul { list-style: none; padding: 0; margin: 0; }
 .footer li { margin-bottom: 10px; }
+.footer__social-heading { margin-top: 18px; color: #fff; font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.footer__social { display: flex; flex-wrap: wrap; gap: 8px 14px; }
+.footer__social a { display: inline-flex; align-items: center; min-height: 28px; }
 .footer a { text-decoration: none; color: #A9B6CE; transition: color .15s; }
 .footer a:hover { color: var(--gold); }
 .footer__bottom {
