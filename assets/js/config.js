@@ -36,12 +36,19 @@ window.KULKAVACH = {
     phonePrimary:   '+91 7771971515',                      // TODO
     phoneSecondary: '+91 7771971616',                      // TODO
     whatsapp:       '917771971515',                         // TODO digits only, e.g. 919425123456
-    email:          'info@kulkavach.in',                     // TODO
-    emailCareers:   'info@kulkavach.in',                 // TODO
+    email:          'info@kulkavach.in',
+    emailHR:        'hr@kulkavach.in',
+    emailAccounts:  'accounts@kulkavach.in',                     // TODO
+    emailCareers:   'hr@kulkavach.in',                 // TODO
     address: {
       line1: 'Plot 14, City Centre',                        // TODO
       line2: 'Gwalior, Madhya Pradesh 474011',              // TODO
       mapsUrl: 'https://maps.google.com/?q=Gwalior+Madhya+Pradesh'  // TODO exact pin
+    },
+    social: {
+      facebook: 'https://www.facebook.com/profile.php?id=61591962744531',
+      instagram: 'https://www.instagram.com/kulkavach_official/?hl=en',
+      linkedin: 'https://www.linkedin.com/company/kulkavach-global-security-services/posts/?viewAsMember=true'
     },
     hours: [
       { day: 'Office (Mon – Sat)', time: '9:30 AM – 7:00 PM' },
